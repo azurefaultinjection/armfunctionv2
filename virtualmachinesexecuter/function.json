@@ -1,0 +1,13 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-1.0.8",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "orchestrationTrigger",
+      "name": "context"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../bin/ChaosExecuter.dll",
+  "entryPoint": "ChaosExecuter.Executer.VirtualMachineExecuter.Run"
+}
